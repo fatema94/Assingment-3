@@ -48,7 +48,7 @@
                   <a class="btn btn-ghost text-xl lg:text-3xl">Hockey<span class="text-[#FF4240]">'</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
+                  <ul class="menu menu-horizontal px-1 lg:text-xl">
                     <li><a class="text-[#FF4240]">Home</a></li>
                     <li><a>About</a></li>
                     <li><a>Pages</a></li>
@@ -65,6 +65,61 @@
 
     </header>
     <main>
+      <!-- banner section -->
+      <section class="px-10 lg:px-20">
+        <div class="carousel w-full lg:h-[550px]">
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="Images/1.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide4" class="btn btn-circle">❮</a> 
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="Images/banner2.jpg" class="w-full rounded-2xl" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide1" class="btn btn-circle">❮</a> 
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide3" class="carousel-item relative w-full">
+            <img src="Images/banner3.jpg" class="w-full rounded-2xl" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide2" class="btn btn-circle">❮</a> 
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+        </div>
+      </section>
+      <!-- professional section -->
+      <section class="my-10">
+        <div class="border-x">
+          <h3 class="text-4xl text-center font-bold">Professional Hockeys Club</h3>
+          <p class="text-md m-5 text-center">A hockey match typically consists of 6 players on each team, making a total <br> of 12 players on the ice at any given time</p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-4 px-16 lg:px-36 my-20 gap-5">
+          <div>
+            <div class="radial-progress text-red-500 mx-20" style="--value:87;" role="progressbar">87%</div>
+            <h3 class="text-xl font-semibold m-5 text-center">Prayer Facility</h3>
+            <p class="text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+          </div>
+          <div>
+            <div class="radial-progress text-green-400 mx-20" style="--value:95;" role="progressbar">95%</div>
+            <h3 class="text-xl font-semibold m-5 text-center">Experienced Coach</h3>
+            <p class="text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+          </div>
+          <div>
+            <div class="radial-progress text-yellow-300 mx-20" style="--value:90;" role="progressbar">90%</div>
+            <h3 class="text-xl font-semibold m-5 text-center">Senior Player</h3>
+            <p class="text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+          </div>
+          <div>
+            <div class="radial-progress text-primary mx-20" style="--value:80;" role="progressbar">80%</div>
+            <h3 class="text-xl font-semibold my-5 text-center">Training Ground</h3>
+            <p class="text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+          </div>
+        </div>
+      </section>
 
     </main>
     <footer>
